@@ -52,7 +52,7 @@ export default function HomePage() {
         </div>
       </section> */}
       {/* Dr. Strott's Top 10 CTA */}
-      <section className="py-12 bg-white border-t border-gray-100">
+      {/* <section className="py-12 bg-white border-t border-gray-100">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Dr. Strott&apos;s Top 10 Reasons for Regular Dentist Visits</h2>
           <Link
@@ -62,7 +62,7 @@ export default function HomePage() {
             CLICK HERE
           </Link>
         </div>
-      </section>
+      </section> */}
       {/* Featured Insights / News */}
       <section className="py-20 bg-gray-50 border-t border-gray-100">
         <div className="container mx-auto px-4">

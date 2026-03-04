@@ -18,7 +18,7 @@ export default async function PrivacyPolicyPage() {
   const settings = await getClinicSettings();
   const clinicName = settings?.clinic_name ?? "Family Health Care Centers of Greater Los Angeles";
   const phone =
-    settings?.phone ?? "+61 3 8376 6284";
+    settings?.phone ?? "+92 306 4206007";
   const email =
     settings?.email ?? "info@claradentist.com";
 

@@ -153,7 +153,7 @@ export default function AppointmentSection() {
     }
   }
 
-  const clinicPhone = clinic?.phone ?? "+61 3 8376 6284";
+  const clinicPhone = clinic?.phone ?? "+92 306 4206007";
 
   return (
     <section className="py-24 bg-(--color-special-smiles-primary) relative overflow-hidden" data-booking-section="true">
@@ -241,15 +241,15 @@ export default function AppointmentSection() {
             </div>
             <div>
               <div className="text-gray-500 text-sm font-bold uppercase tracking-wider">Call Now</div>
-              <div className="text-xl font-bold text-gray-900">{clinicPhone}</div>
+              <a
+                href={`tel:${clinicPhone}`}
+                className=" gap-3 py-2 text-xl font-bold font-(family-name:--font-body) text-canvas/60 hover:text-canvas"
+              >
+
+                {clinicPhone}
+              </a>
             </div>
-            <a
-              href={`tel:${clinicPhone}`}
-              className="flex items-center gap-3 py-2 text-sm font-(family-name:--font-body) text-canvas/60 hover:text-canvas"
-            >
-              <Phone size={16} />
-              {clinicPhone}
-            </a>
+
           </div>
         </div>
 
