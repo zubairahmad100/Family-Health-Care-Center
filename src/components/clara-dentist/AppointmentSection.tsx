@@ -243,7 +243,7 @@ export default function AppointmentSection() {
               <div className="text-gray-500 text-sm font-bold uppercase tracking-wider">Call Now</div>
               <a
                 href={`tel:${clinicPhone}`}
-                className=" gap-3 py-2 text-xl font-bold font-(family-name:--font-body) text-canvas/60 hover:text-canvas"
+                className=" gap-3 py-2 text-xl font-bold font-(family-name:--font-body) text-gray-900"
               >
 
                 {clinicPhone}
