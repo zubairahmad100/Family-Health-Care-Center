@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48" fill="none" aria-label="Special Smiles, Ltd.">
+  <!-- Teal circle with smile icon -->
+  <circle cx="24" cy="24" r="22" fill="#73A9BC"/>
+  <path d="M14 22c0 0 3 6 10 6s10-6 10-6" stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <circle cx="18" cy="20" r="1.8" fill="white"/>
+  <circle cx="30" cy="20" r="1.8" fill="white"/>
+  <!-- Text: white for dark footer background -->
+  <text x="52" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="white">Special Smiles</text>
+  <text x="52" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#73A9BC">, Ltd.</text>
+</svg>
